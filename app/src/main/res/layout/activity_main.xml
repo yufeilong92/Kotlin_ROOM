@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.example.myapplication.EditInputTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.example.myapplication.GmTitleBarView
+        android:id="@+id/tv_title_view_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:content_content="2222"
+        app:right_content="2222"
+        app:tv_right_boolean="true"
+        app:right_size="12sp"
+        app:right_color="@color/colorAccent"
+        app:app_bar_bg="@color/colorPrimary"
+        />
+    <com.example.myapplication.BoxLid
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
